@@ -14,3 +14,6 @@ and the files that have a or A .
 
 ![Screenshot from 2021-04-26 02-17-16](https://user-images.githubusercontent.com/77538165/116017274-04703d80-a5f4-11eb-8aae-e9c804ff0559.png)
 
+no files in directory begain with a or A
+
+![2](https://user-images.githubusercontent.com/77538165/116131076-ca994880-a680-11eb-88cb-79f54a41344a.png)
