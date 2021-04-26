@@ -26,21 +26,39 @@ The Program :
 int main()
 
 F *f;
+
 int lines_n=0;
+
 char filename[100],sample_;
+
 printf("Enter file name");
+
 scanf("%s" , filename);
+
 F=fopen("%s" , filename , "r");
+
 sample_chr = getc(fp);
-    while (sample_!= EOF) {
-            if (sample_ == '')
-        {    
-           ines_n=no_lines+1;
-    }
-       sample_= getc(F);
-    }
-    fclose(F); //close file.
-    printf("There are %d lines in %s 
-    ", no_lines, filename);
-    return 0;
+
+while (sample_!= EOF) {
+
+if (sample_ == '')
+
+{    
+
+ines_n=no_lines+1;
+
+}
+
+sample_= getc(F);
+
+}
+
+fclose(F); //close file.
+
+printf("There are %d lines in %s 
+
+", no_lines, filename);
+
+return 0;
+
 }
