@@ -17,3 +17,33 @@ and the files that have a or A .
 no files in directory begain with a or A
 
 ![2](https://user-images.githubusercontent.com/77538165/116131076-ca994880-a680-11eb-88cb-79f54a41344a.png)
+
+
+The Program :
+
+#include <stdio.h>
+
+int main()
+
+F *f;
+int lines_n=0;
+char filename[100],sample_;
+printf("Enter file name");
+scanf("%s" , filename);
+F=fopen("%s" , filename , "r");
+sample_chr = getc(fp);
+    while (sample_!= EOF) {
+        
+        if (sample_ == '')
+        {    
+            
+            ines_n=no_lines+1;
+        }
+        
+        sample_= getc(F);
+    }
+    fclose(F); //close file.
+    printf("There are %d lines in %s 
+    ", no_lines, filename);
+    return 0;
+}
