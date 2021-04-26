@@ -33,14 +33,11 @@ scanf("%s" , filename);
 F=fopen("%s" , filename , "r");
 sample_chr = getc(fp);
     while (sample_!= EOF) {
-        
-        if (sample_ == '')
+            if (sample_ == '')
         {    
-            
-            ines_n=no_lines+1;
-        }
-        
-        sample_= getc(F);
+           ines_n=no_lines+1;
+    }
+       sample_= getc(F);
     }
     fclose(F); //close file.
     printf("There are %d lines in %s 
